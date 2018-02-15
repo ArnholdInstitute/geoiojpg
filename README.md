@@ -30,3 +30,10 @@ print(geoimg.raster_to_proj(50, 50))
 # > (49.4826462689568, -15.9084275189568)
 
 ```
+
+# How it works
+
+GeoIOJpg will build a [VRT](http://www.gdal.org/gdal_vrttut.html) in XML format out of the supplied metadata.  Basically, it will compute the geotransform based on the supplied shapely object and height/width of the image.  It will assume that all jpg files are in RGB format.  This will then call the GeoIO constructor with the temporary VRT file.  After the GeoIO object has been created, the temporary file is deleted.
+
+
+
