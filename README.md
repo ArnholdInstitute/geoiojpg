@@ -3,6 +3,14 @@ GeoIOJpg
 
 A wrapper around [GeoIO](https://github.com/DigitalGlobe/geoio) for non-georeferenced jpg files.  Simply give the path to a jpg file and a shapely object describing the geospatial boundary of that image.
 
+# Install
+
+Note that GeoIO only works with python 2, therefore GeoIOJpg also has this same limitation
+
+```
+pip install geoiojpg
+```
+
 # Usage
 
 ```Python
