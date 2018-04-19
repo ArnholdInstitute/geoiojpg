@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='geoiojpg',
     packages=['geoiojpg'],
-    version='0.1',
+    version='0.2',
     description='A wrapper around GeoIO for non-georeferenced jpg files',
     author='Matt Le',
     author_email='lematt1991@gmail.com',
