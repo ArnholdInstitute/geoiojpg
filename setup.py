@@ -10,5 +10,6 @@ setup(
     url='https://github.com/ArnholdInstitute/geoiojpg',
     download_url='https://github.com/ArnholdInstitute/geoiojpg/archive/master.zip',
     keywords=['jpg', 'jpeg', 'geoio', 'geospatial'],
-    classifiers=[]
+    classifiers=[],
+    install_requires=['geoio', 'shapely']
 )
